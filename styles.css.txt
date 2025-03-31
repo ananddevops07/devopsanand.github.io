@@ -1,0 +1,93 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #1f4037, #99f2c8);
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+p {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#about, #experience, #skills, #projects, #personal-info, #location {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 20px auto;
+  border-radius: 12px;
+  width: 80%;
+  padding: 30px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#about:hover, #experience:hover, #skills:hover, #projects:hover, #personal-info:hover, #location:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+}
+
+.project-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.exp-card {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.exp-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #333;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+li:hover {
+  background: #99f2c8;
+  color: #000;
+}
+
+iframe {
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
